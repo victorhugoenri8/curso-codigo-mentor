@@ -1,0 +1,19 @@
+[{"Luis":{
+	"nombre"  :"Luis",
+	"apellido":"Gomez",
+	"edad"    :20,
+	"salario" :2000
+     }}, 
+ {"Pedro":{
+ 	"nombre"  :"Pedro",
+ 	"apellido":"Fernandez",
+ 	"edad"    :28,
+ 	"salario" :2800
+      }},
+ {"Juan":{
+	"nombre"  :"Juan",
+	"apellido":"Perez",
+	"edad"    :29,
+	"salario" :3400
+	}
+}]

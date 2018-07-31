@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Sandbox</title>
+  <!--   <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css"> -->
+</head>
+<body>
+    <div class="container">
+    <h1>    comunicacion a base de datos con php </h1>
+    <h2>buscar la informacion de una persona desde un dropdown a la BD</h2>
+
+    <hr>
+    <p> extraño que solo funciona con numeros, cunado trato de que sea con el string enviando el value no funciona... y no se porque</p>
+<hr>
+
+     <form action="">
+         
+        <select onchange="lol(this.value)">
+            <option value="">seleccionar persona</option>
+            <option value="18">carlos</option>
+            <option value="21">ivan    </option>
+            <option value="7">elias   </option>
+            <option value="10">angelica</option>
+            <option value="19">alfredo </option>
+            <option value="22">janet   </option>
+            <option value="13">leticia </option>
+            <option value="3">ruben   </option>
+            <option value="17">victor  </option>
+            <option value="2">raul   </option>
+        </select>
+     </form>
+       
+        <br><br>
+      
+        <div id="mostrar"></div>
+       
+
+        <script src="app.js"></script>
+    </div>
+
+
+    <style>
+        .container {
+            margin-top: 40px;
+        }
+    </style>
+</body>
+</html>

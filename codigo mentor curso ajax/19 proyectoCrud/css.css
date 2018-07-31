@@ -1,0 +1,59 @@
+
+
+ button{
+  padding: 15px;
+  margin-left: 34px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+#overlay{
+    display: none;
+    z-index: 2;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+   }
+
+#informacionDelUsuario{
+    display: none;
+    z-index: 3;
+    background: #fff;
+    position: relative;
+    color:#000000;
+    margin: 100px auto 0px auto;
+    height: 750px;
+    width: 600px;
+    font-size: 18px;
+    border: 4px solid #ccc
+   }
+
+#wrapper{
+    position: absolute;
+    top: 20%;
+   }
+
+p#info{
+    padding-left: 140px;
+   }
+
+#titulo{
+    width: 100%;
+    height: 12%;
+    background: #e9e9e9;
+    padding: -20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    padding-top: 15px;
+   }
+
+   .form-group {
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}

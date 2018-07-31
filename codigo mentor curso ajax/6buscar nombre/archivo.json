@@ -1,0 +1,32 @@
+{
+"Luis":{
+	"nombre"  :"Luis",
+	"apellido":"Gomez",
+	"edad"    :20,
+	"salario" :2000
+     }, 
+ "Pedro":{
+ 	"nombre"  :"Pedro",
+ 	"apellido":"Fernandez",
+ 	"edad"    :28,
+ 	"salario" :2800
+      },
+ "Juan":{
+	"nombre"  :"Juan",
+	"apellido":"Perez",
+	"edad"    :29,
+	"salario" :3400
+	},
+  "Ruben":{
+	"nombre"  :"Ruben",
+	"apellido":"Ienez",
+	"edad"    :14,
+	"salario" :340
+	},
+  "Saul":{
+	"nombre"  :"Saul",
+	"apellido":"Guzman",
+	"edad"    :9,
+	"salario" :3890
+	}
+}
